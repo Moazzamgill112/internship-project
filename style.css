@@ -1,0 +1,611 @@
+    /* mobile styling starts here */
+    
+    .nav-item a:hover {
+        color: red;
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
+    
+    .nav-item .nav-link.active {
+        color: red;
+    }
+    
+    .nav-item .nav-link.active:hover {
+        color: red;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown ul li {
+        list-style: none;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: rgb(0, 0, 0);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        color: red;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* slider styling starts here */
+    /* para styling starts  here*/
+    
+    .text {
+        font-size: 45px;
+        color: rgb(68, 68, 68);
+    }
+    
+    .para {
+        font-size: 23px;
+    }
+    
+    .check {
+        color: red;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    /* para styling end here*/
+    /* brand styling starts here */
+    
+    .brand {
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .brand-icon {
+        width: 100px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .brand-icon {
+        filter: grayscale(1.0);
+    }
+    
+    .brand-icon:hover {
+        filter: none;
+        -webkit-transform: scale(1.15);
+        transition: all 0.7s;
+    }
+    /* lorem styling starts here */
+    
+    .lorem {
+        margin: 10px;
+        border-radius: 5px;
+    }
+    
+    .lorem:hover b {
+        color: red;
+        cursor: pointer;
+    }
+    
+    .lorem-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-size: 40px;
+    }
+    /* gallery styling starts here */
+    
+    .button.active {
+        background-color: rgba(236, 0, 0, 0.78) !important;
+        color: white;
+        height: 40px !important;
+        width: 65px !important;
+        margin: 1px;
+    }
+    
+    .button {
+        color: rgb(0, 0, 0);
+        height: 40px !important;
+        width: 65px !important;
+        margin: 1px;
+    }
+    
+    .button:hover {
+        background-color: rgba(236, 0, 0, 0.78) !important;
+        color: white !important;
+        height: 40px !important;
+        width: 65px !important;
+        margin: 1px;
+    }
+    /* footer styling starts here */
+    
+    .footer {
+        background-color: #7b7d85;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .links {
+        color: whitesmoke;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        padding-left: 30px;
+    }
+    
+    .links h6 {
+        color: #aeaeae;
+    }
+    
+    .links h6:hover {
+        color: #ffffff;
+        cursor: pointer;
+    }
+    
+    .bi-chevron-right {
+        font-size: 13px;
+        padding-right: 6px;
+    }
+    
+    .form-control {
+        width: 13rem;
+        border-radius: 0px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    .icon {
+        height: 35px;
+        width: 35px;
+        border-radius: 5px;
+        background-color: #aeaeae;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        margin: 5px;
+    }
+    
+    .icon:hover {
+        background-color: red;
+        cursor: pointer;
+    }
+    
+    .copy {
+        background-color: #636467;
+        color: white;
+        padding-left: 40px;
+    }
+    
+    .about {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .home-about {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    /* tablate styling starts here */
+    
+    @media only screen and (min-width:768px) {
+        .navbar {
+            padding: 10px;
+        }
+        .nav-item a:hover {
+            color: red;
+        }
+        .navbar {
+            padding: 10px;
+        }
+        .nav-item .nav-link.active {
+            color: red;
+        }
+        .nav-item .nav-link.active:hover {
+            color: red;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown ul li {
+            list-style: none;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: rgb(0, 0, 0);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            color: red;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        /* para styling starts  here*/
+        .text {
+            font-size: 45px;
+            color: rgb(68, 68, 68);
+        }
+        .para {
+            font-size: 23px;
+        }
+        .check {
+            color: red;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        /* para styling end here*/
+        .brand {
+            width: 101.5vw;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .brand-icon {
+            width: 150px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .brand-icon {
+            filter: grayscale(1.0);
+        }
+        .brand-icon:hover {
+            filter: none;
+            -webkit-transform: scale(1.15);
+            transition: all 0.7s;
+        }
+        .carousel-caption {
+            margin-bottom: 200px;
+        }
+        .lorem {
+            margin: 12px;
+            border-radius: 5px;
+        }
+        .lorem:hover b {
+            color: red;
+            cursor: pointer;
+        }
+        .lorem-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: red;
+            font-size: 40px;
+        }
+        /* gallery styling starts here */
+        .button.active {
+            background-color: rgba(236, 0, 0, 0.78) !important;
+            color: white;
+            height: 40px !important;
+            width: 65px !important;
+            margin: 1px;
+        }
+        .button {
+            color: rgb(0, 0, 0);
+            height: 40px !important;
+            width: 65px !important;
+            margin: 1px;
+        }
+        .button:hover {
+            background-color: rgba(236, 0, 0, 0.78) !important;
+            color: white !important;
+            height: 40px !important;
+            width: 65px !important;
+            margin: 1px;
+        }
+        /* footer styling starts here */
+        .footer {
+            width: 101.5vw;
+            background-color: #7b7d85;
+        }
+        .links {
+            color: whitesmoke;
+        }
+        .useful-links {
+            padding-bottom: 30px;
+        }
+        .useful {
+            padding-bottom: 50px;
+        }
+        .useful-link {
+            padding-bottom: 10px;
+        }
+        .usefull {
+            padding-bottom: 80px;
+        }
+        .links h6 {
+            color: #aeaeae;
+        }
+        .links h6:hover {
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .bi-chevron-right {
+            font-size: 13px;
+        }
+        .form-control {
+            width: 168px;
+            border-radius: 0px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .icon {
+            height: 30px;
+            width: 30px;
+            border-radius: 2px;
+            background-color: #aeaeae;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            margin: 5px;
+        }
+        .icon:hover {
+            background-color: red;
+            cursor: pointer;
+        }
+        .subscribe {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .copy {
+            width: 101.5vw;
+            background-color: #636467;
+            color: white;
+            padding-left: 250px;
+        }
+        /* about styling starts here */
+        .about {
+            font-size: 30px;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+    }
+    /* laptop styling starts here */
+    
+    @media only screen and (min-width:1000px) {
+        .navbar-brand {
+            padding-right: 20%;
+            margin-left: 90px;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+        }
+        .nav-item a:hover {
+            color: red;
+        }
+        .nav-item .nav-link.active {
+            color: red;
+        }
+        .nav-item .nav-link.active:hover {
+            color: red;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown ul li {
+            list-style: none;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: rgb(0, 0, 0);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            color: red;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .btn {
+            margin-left: 15px;
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        /* slider styling starts here */
+        .carousel-caption {
+            margin-bottom: 200px;
+        }
+        /* text styling starts here */
+        .text {
+            font-size: 45px;
+            color: rgb(68, 68, 68);
+        }
+        .para {
+            font-size: 23px;
+        }
+        .check {
+            color: red;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        /* brand styling starts here */
+        .brand {
+            width: 99.6vw;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .brand-icon {
+            width: 120px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .brand-icon {
+            filter: grayscale(1.0);
+        }
+        .brand-icon:hover {
+            filter: none;
+            -webkit-transform: scale(1.15);
+            transition: all 0.7s;
+        }
+        /* lorem styling starts here */
+        .lorem {
+            margin: 15px;
+            border-radius: 5px;
+        }
+        .lorem:hover b {
+            color: red;
+            cursor: pointer;
+        }
+        .lorem-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: red;
+            font-size: 40px;
+        }
+        /* gallery styling starts here */
+        .button.active {
+            background-color: rgba(236, 0, 0, 0.78) !important;
+            color: white;
+            height: 40px !important;
+            width: 65px !important;
+            margin: 1px;
+        }
+        .button {
+            color: rgb(0, 0, 0);
+            height: 40px !important;
+            width: 65px !important;
+            margin: 1px;
+        }
+        .button:hover {
+            background-color: rgba(236, 0, 0, 0.78) !important;
+            color: white !important;
+            height: 40px !important;
+            width: 65px !important;
+            margin: 1px;
+        }
+        /* footer styling starts here */
+        .footer {
+            width: 99.6vw;
+            background-color: #7b7d85;
+        }
+        .links {
+            color: whitesmoke;
+        }
+        .useful-links {
+            padding-bottom: 30px;
+        }
+        .useful {
+            padding-bottom: 50px;
+        }
+        .useful-link {
+            padding-bottom: 10px;
+        }
+        .usefull {
+            padding-bottom: 80px;
+        }
+        .links h6 {
+            color: #aeaeae;
+        }
+        .links h6:hover {
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .bi-chevron-right {
+            font-size: 13px;
+            padding-right: 6px;
+        }
+        .form-control {
+            width: 198px;
+            border-radius: 0px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .icon {
+            height: 30px;
+            width: 30px;
+            border-radius: 2px;
+            background-color: #aeaeae;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            margin: 5px;
+        }
+        .icon:hover {
+            background-color: red;
+            cursor: pointer;
+        }
+        .subscribe {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .copy {
+            width: 99.6vw;
+            background-color: #636467;
+            color: white;
+            padding-left: 550px;
+        }
+        /* about page styling starts here */
+        .about-con {
+            display: flex;
+        }
+        .about {
+            font-size: 30px;
+            padding-left: 110px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        .home-about {
+            padding-left: 930px;
+            padding-top: 35px;
+        }
+        /* team styling starts here */
+        .team {
+            height: 600px;
+        }
+        .hard {
+            font-size: 50px;
+            tex
+        }
+    }
